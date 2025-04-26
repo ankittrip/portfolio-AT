@@ -1,1 +1,2 @@
-This is my personal portfolio website built using React.
+This is my personal portfolio website built using html and css
+
