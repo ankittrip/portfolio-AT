@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+*{
+    font-family: "Pontano Sans", sans-serif;
+    text-shadow: .1rem .1rem 1rem red;
+
+
+
+}
+:root {
+    --cyan-clr: cyan;
+    --red-clr: red;
+    --white-clr: white;
+    --black-clr: black;
+}
+
+.bg-black{
+    background: var(--black-clr);
+
+}
+.bg-cyan{
+    background: var(--cyan-clr);
+}
+.txt-cyan{
+    color: var(--cyan-clr);
+
+}
+.txt-white{
+    color: var(--white-clr);
+}
+
+.bg-red{
+    background: var(--red-clr);
+    color: var(--red-clr);
+}
+
+.bg-white{
+    background: var(--white-clr);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.navbar-logo{
+    background-color: black;
+    width: 8.5rem;
+    justify-content: 100%;
+}
+
+.mybtn{
+    border: .2rem solid cyan !important;
+    padding: .5rem .5rem;
+}
+.mybtn:hover{
+    background-color: transparent;
+    color: cyan !important;
+    box-shadow: .1 .1 .8 cyan,
+    inset.1 .1 .8 cyan;
+}
+.img-container{
+    width: 33rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(profile.jpg);
+    background-position: center;
+    background-size: 100%;
+    box-shadow: 0rem 0rem 1rem red,
+    inset 0rem 0rem 1rem white,
+    0 0 2rem var(--cyan-clr),
+    inset 0 0 2rem var(--cyan-clr),
+    0 0 7rem var(--cyan-clr);
+}
+.imge-container{
+    width: 33rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(myprofile.jpg);
+    background-position: center;
+    background-size: 100%;
+    box-shadow: 0rem 0rem 1rem red,    inset 0rem 0rem 1rem white,    0 0 2rem var(--cyan-clr),    inset 0 0 2rem var(--cyan-clr),    0 0 7rem var(--cyan-clr);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.one-section{
+    min-height: 88vh;
+}
+h1{
+    font-size: 4rem;
+    font-family: "Merriweather", serif;
+}
+p{
+    font-size: .95rem;
+}
+.para{
+    max-width: 500px;
+}
+a{
+    text-decoration: none;
+}
+.about{
+    padding-left: 5rem;
+    margin-left: 7rem;
+}
+
+.two-section{
+    padding-top: 3rem;
+    min-height: 80vh;
+}
+.three-section{
+
+}
+
+.style{
+    color: cyan;
+}
+ .work{
+    height: 17rem;
+    width: 36rem;
+    border-radius: 25px;
+    aspect-ratio: 1;
+    background-image: url(work.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 .8rem cyan,
+    inset 0 0 .8rem cyan;
+    margin-top: 10rem;
+}
+.thank{
+    margin-top: 9rem;
+}
+.section-container{
+    margin: 10rem ;
+}
+
+.card{
+    box-shadow: 0 0 .8rem white,
+    inset 0 0 .8rem cyan;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 680px) {
+    h1{
+        font-size: 2.8rem;
+    }
+
+    .img-container{
+        width: 20rem;
+    }
+    .imge-container{
+        width: 20rem;
+        margin-left: 8rem;
+    }
+
+    .one-section{
+        min-height: 75vh;
+    }
+    
+}
